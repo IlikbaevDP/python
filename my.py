@@ -18,3 +18,4 @@ print(55, 67,87, True, False
       a = 17
       a -= 1
       print(5**2)
+      print(2==2)
