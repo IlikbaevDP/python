@@ -1,4 +1,4 @@
-from http.cookiejar import user_domain_match  # Домашняя работа 2
+
 print("Denis dz  20.04")
 print (2**5)
 a = 32
@@ -21,3 +21,5 @@ age =input()
 print('Ты любишь программирование да / нет?')
 user_input = input('Ты любишь программирование (да / нет): ')
 yes_choices = ['yes', 'y']
+
+print ()
