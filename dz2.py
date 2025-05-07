@@ -16,5 +16,9 @@ user_input = input('Do you like programming (yes/no): ')
 if user_input.lower() == 'yes':
     print('user typed yes')
 # словарь
+name = "Denis"
+age = "39"
 
-user_info = {"name": "Denis" , "age": "39", "loves to program" :  "yes" }
+user_info = {"name": "Denis" ,
+             "age": "39",
+             "loves to program" :  "yes" }
