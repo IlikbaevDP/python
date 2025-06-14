@@ -73,3 +73,38 @@
 #
 # print("Количество вхождений слова:", normalized_words.count(search_word))
 #
+
+# ДЗ_QA415_07.06
+#
+# name = input("Введите ваше имя: ")
+# def greet_and_count():
+#  print(f"Привет, {name}! Добро пожаловать")
+#
+#
+#
+#
+# string = input()
+# print(string)
+# count = len(string)  # кол-во символов в строке с пробелами
+# print("Количество символов в строке: {0}".format(count))
+# d = {}
+# for char in set(string):
+#  d[char] = string.count(char)
+# print(d)  # Кол-во всех букв в строке
+#
+# print(string.replace(' ', ''))  # Строка без пробелов между словами
+#
+#  Задача 8
+# def is_prime(n):
+#    if n < 2: return False
+#   for i in range(2, n):
+#    if n % i == 0:
+#     return True
+# primes = []
+# for num in range(100,1000):
+#     if all(num%i!=0 for i in range(2,num)):
+#         print (num)
+
+# for num in range(100,1000):
+#     if all(num%i!=0 for i in range(2,num)):
+#         print (num)
