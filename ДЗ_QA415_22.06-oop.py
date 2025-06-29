@@ -43,28 +43,28 @@
 # атрибуты salary и position, а также метод work(), который будет выводить на экран
 # информацию о работе сотрудника.
 
-class Person:
-    def __init__(self, name, age, gender):
-        self.name = name
-        self.age = age
-        self.gender = gender
-
-    def introduce(self):
-        print(f"Имя: {self.name}, Возраст: {self.age}, Пол: {self.gender}")
-
-class Employee(Person):
-    def __init__(self, name, age, gender, salary, position):
-        super().__init__(name, age, gender)
-        self.salary = salary
-        self.position = position
-
-    def work(self):
-        print(f"{self.name} работает в качестве {self.position} с ЗП {self.salary} рублей.")
-
-
-person = Person("Марианна", 36, "женский")
-person.introduce()
-
-employee = Employee("Арсений", 28, "мужской", "100 тыс.", "QA Senior")
-employee.introduce()
-employee.work()
+# class Person:
+#     def __init__(self, name, age, gender):
+#         self.name = name
+#         self.age = age
+#         self.gender = gender
+#
+#     def introduce(self):
+#         print(f"Имя: {self.name}, Возраст: {self.age}, Пол: {self.gender}")
+#
+# class Employee(Person):
+#     def __init__(self, name, age, gender, salary, position):
+#         super().__init__(name, age, gender)
+#         self.salary = salary
+#         self.position = position
+#
+#     def work(self):
+#         print(f"{self.name} работает в качестве {self.position} с ЗП {self.salary} рублей.")
+#
+#
+# person = Person("Марианна", 36, "женский")
+# person.introduce()
+#
+# employee = Employee("Арсений", 28, "мужской", "100 тыс.", "QA Senior")
+# employee.introduce()
+# employee.work()
